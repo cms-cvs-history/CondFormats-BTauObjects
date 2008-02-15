@@ -1,14 +1,8 @@
-#include "CondFormats/BTauObjects/interface/CalibratedHistogram.h"
 #include "CondFormats/BTauObjects/interface/TrackProbabilityCategoryData.h"
 #include "CondFormats/BTauObjects/interface/TrackProbabilityCalibration.h"
 #include "CondFormats/BTauObjects/interface/CombinedTauTagCalibration.h"
 
 namespace {
-
-CalibratedHistogram a;
-std::vector<float> b1;
-std::vector<float>::iterator b1i;
-std::vector<float>::const_iterator b1ic;
 
 TrackProbabilityCategoryData c;
 
